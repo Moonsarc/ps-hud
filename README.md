@@ -7,7 +7,7 @@ Ultra customizable hud featuring a unique and robust settings menu. Change eveyt
 
 ### Unsupported ESX Version made by [reyyghi](https://github.com/reyyghi)
 
-### Edited Inspired Prodigy made by [SoraStudio](https://github.com/Mylteds)
+### Edited Inspired Prodigy made by [sorastudio](https://github.com/Mylteds) | Discord [Click Here](https://discord.gg/Cc6WvHwnjz)
 
 ### Optional:
 * [ps-buffs](https://github.com/Project-Sloth/ps-buffs)
