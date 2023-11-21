@@ -112,15 +112,6 @@ const store = () => {
           colorEffects: [defaultColorEffect("normal", "#b9ff28")],
           editableColors: defaultEditableColor(),
         }),
-        // engine: getLocalStorage("engine", {
-        //   currentEffect: 0,
-        //   colorEffects: [
-        //     defaultColorEffect("no-damage", "#3FA554"),
-        //     defaultColorEffect("minor-damage", "#DD6E14"),
-        //     defaultColorEffect("major-damage", "#FF0000"),
-        //   ],
-        //   editableColors: defaultEditableColor(),
-        // }),
         harness: getLocalStorage("harness", {
           currentEffect: 0,
           colorEffects: [defaultColorEffect("normal", "#b648ff")],

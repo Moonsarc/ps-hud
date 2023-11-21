@@ -12,7 +12,7 @@
   export let iconTranslateX: number = 0;
   export let iconTranslateY: number = 0;
   export let name: string = "";
-  export let outlineBlack: string = "#212121";
+  export let innerColor: string = "#212121";
   export let outlineColor: string = "red";
   export let outlineContrast: number = 100;
   export let outlineDropShadowAmount: number = 0;
@@ -77,7 +77,7 @@
     { "translate("+translateX+" "+translateY+")" }"
   >
   <circle
-    stroke={outlineBlack}
+    stroke={innerColor}
     fill="transparent"
     stroke-width={stroke}
     r={normalizedRadius}

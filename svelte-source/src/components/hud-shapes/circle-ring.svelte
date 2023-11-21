@@ -73,7 +73,7 @@
     /> -->
     {#if displayOutline}
       <circle
-        fill={outlineBlack}
+        fill={innerColor}
         stroke={outlineBlack}
         stroke-dashoffset={0}
         stroke-dasharray={circumference + ' ' + circumference}
