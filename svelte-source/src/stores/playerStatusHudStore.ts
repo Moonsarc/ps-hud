@@ -316,11 +316,11 @@ const store = () => {
 
         state.icons.fuel.isShowing = methods.staticFuelHandleShow(state.dynamicIcons.fuel, state.icons.fuel.progressValue);
 
-        if (data.fuel <= 45) {
+        if (data.fuel <= 20) {
           ColorEffectStore.updateIconEffectStage("fuel", 2);
-        } else if (data.fuel <= 75 && data.fuel >= 46 ) {
+        } else if (data.fuel <= 30) {
           ColorEffectStore.updateIconEffectStage("fuel", 1);
-        } else if(data.fuel <= 100) {
+        } else {
           ColorEffectStore.updateIconEffectStage("fuel", 0);
         } 
   
