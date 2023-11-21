@@ -163,7 +163,7 @@
       />
     </div>
 
-    <div class="flex flex-col mx-auto">
+    <!-- <div class="flex flex-col mx-auto">
       <p class="text-base text-center mb-2">Outline Color</p>
       <ColorPicker colorString={$ColorEffectStore.globalColorSettings.outlineColor}
         updateFunction={(hexColor) => ColorEffectStore.updateAllDefaultEffectColorSetting("outlineColor", hexColor)}
@@ -180,16 +180,16 @@
       <NumberInput min={0} max={20} bind:value={$ColorEffectStore.globalColorSettings.outlineDropShadowAmount}
         handleUpdateFunction={(dropAmount) => ColorEffectStore.updateAllDefaultEffectColorSetting("outlineDropShadowAmount", dropAmount)}
       />
-    </div>
+    </div> -->
 
-    {#if $ColorEffectStore.globalColorSettings.editableColors.innerColor}
+    <!-- {#if $ColorEffectStore.globalColorSettings.editableColors.innerColor}
       <div class="flex flex-col mx-auto">
         <p class="text-base text-center mb-2">Inner Color</p>
           <ColorPicker colorString={$ColorEffectStore.globalColorSettings.innerColor}
             updateFunction={(hexColor) => ColorEffectStore.updateAllDefaultEffectColorSetting("innerColor", hexColor)}
           />
       </div>
-    {/if}
+    {/if} -->
   </div>
 </Panel>
 <hr>

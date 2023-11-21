@@ -205,7 +205,7 @@
       />
     </div>
 
-    <div class="flex flex-col mx-auto">
+    <!-- <div class="flex flex-col mx-auto">
       <p class="text-base text-center mb-2">Outline Color</p>
       <ColorPicker colorString={$ColorEffectStore.icons[singleIconName].colorEffects[stageIndex].outlineColor}
         updateFunction={(hexColor) => ColorEffectStore.updateColorSetting(singleIconName, stageIndex, "outlineColor", hexColor)}
@@ -222,16 +222,16 @@
       <NumberInput min={0} max={20} bind:value={$ColorEffectStore.icons[singleIconName].colorEffects[stageIndex].outlineDropShadowAmount}
         handleUpdateFunction={(dropAmount) => ColorEffectStore.updateColorSetting(singleIconName, stageIndex, "outlineDropShadowAmount", dropAmount)}
       />
-    </div>
+    </div> -->
 
-    {#if $ColorEffectStore.icons[singleIconName].editableColors.innerColor}
+    <!-- {#if $ColorEffectStore.icons[singleIconName].editableColors.innerColor}
       <div class="flex flex-col mx-auto">
         <p class="text-base text-center mb-2">Inner Color</p>
           <ColorPicker colorString={$ColorEffectStore.icons[singleIconName].colorEffects[stageIndex].innerColor}
             updateFunction={(hexColor) => ColorEffectStore.updateColorSetting(singleIconName, stageIndex, "innerColor", hexColor)}
           />
       </div>
-    {/if}
+    {/if} -->
   </div>
 </Panel>
 <hr>

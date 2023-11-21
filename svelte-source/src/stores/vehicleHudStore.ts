@@ -83,13 +83,13 @@ const store = () => {
           state.beltOpacity = 0.8
         }
 
-        if (data.engine <= 20) {
+        if (data.engine <= 45) {
           state.engineColor = "#ff0000";
-        } else if (data.engine <= 30) {
+        } else if (data.engine <= 75 && data.engine >= 46 ) {
           state.engineColor = "#dd6e14";
-        } else {
+        } else if(data.engine <= 100) {
           state.engineColor = "#FFFFFF";
-        }
+        } 
 
         if (data.isPaused) {
           state.show = false;
